@@ -1,0 +1,329 @@
+\documentclass{beamer}
+\usetheme{Boadilla}
+
+\beamertemplatenavigationsymbolsempty
+
+\usepackage[utf8]{inputenc}
+\usepackage{caption, subcaption}
+\usepackage{amssymb, amsmath, amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{appendixnumberbeamer}
+
+\usepackage[square, numbers]{natbib}
+\bibliographystyle{unsrt}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+
+\title[Big Fat Jacob's Big Fat Quiz]{Big Fat Jacob's Big Fat Fucking Quiz of the Year, ya Dicks}
+\author[Jacob Bradley]{Jacob Bradley}
+\date{January 2021}
+% \institute[]{University of Edinburgh}
+
+
+% \titlegraphic{\includegraphics[height=.7cm]{figures/mims_logo.png}\hspace*{.5cm}~%
+% \includegraphics[height=.7cm]{figures/uoe_logo.png}\hspace*{.5cm}~
+%   \includegraphics[height=1cm]{figures/igmm_logo.png}
+% }
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Rounds}
+\tableofcontents
+\end{frame}
+
+\section{Round 0: In The News}
+
+
+\begin{frame}{Round 0: In the News}
+10 questions, all from the (relatively) recent news. Here We Go.
+\end{frame}
+
+\begin{frame}{Round 0: In the News}
+10 questions, all from the (relatively) recent news. Here We Go.
+\end{frame}
+
+\begin{frame}{Question 0.1}
+The last day.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=2.5in]{tony.png}
+\caption{Sir Tony Robinson on the BBC Website, 20th January 2021.}
+\end{figure}
+\end{frame}
+
+
+
+\begin{frame}{Question 0.2}
+The last week.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=2.5in]{az.jpg}
+\caption{The AstraZeneca/University of Oxford Vaccine.}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Question 0.3}
+The last month.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=2.5in]{ja.jpg}
+\caption{Semi-professional clusterturd Jake Angeli (good mates with Meakin's ex Andy.)}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Question 0.4}
+The last year.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=2.5in]{radio}
+\caption{Semi-professional clusterturd Jake Angeli (good mates with Meakin's ex Andy.)}
+\end{figure}
+\end{frame}
+
+
+
+\begin{frame}{Question 0.5}
+The last decade.
+\begin{figure}[t!]
+\centering
+\begin{subfigure}[t]{0.45\textwidth}
+
+    \centering
+    \includegraphics[height=1.5in]{ssatlantis.jpg}
+    \caption{Space Shuttle launches STS-135 mission from Cape Canaveral, 2011.}
+    
+\end{subfigure}
+~ 
+\begin{subfigure}[t]{0.45\textwidth}
+    \centering
+    \includegraphics[height=1.5in]{falcon9.png}
+    \caption{Falcon 9 launches demo-2 mission from Cape Canaveral, 2020.}
+    
+\end{subfigure}
+\end{figure}
+\end{frame}
+
+
+\section{Round 1: Which Twat Posted That?}
+\section{Round 2: Bangers and Mashups (the inevitable music round)}
+\section{Round 3: The Picture Round}
+\section{Interval}
+\section{Round 3, Continued}
+\section{Round 4: Emoji Quiz III: Revenge of the GIF}
+
+
+
+\section{Biological/Clinical Background}
+
+
+\subsection{Cancer and immunotherapy}
+\begin{frame}{Cancer is a disease of the genome}
+Cancer arises when DNA in cells changes (mutates) \citep{hanahan_hallmarks_2011}.
+\begin{figure}[t!]
+    \centering
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[height=1.5in]{figures/IC1.png}
+        \caption{Non-cancer cell: Normal DNA.}
+    \end{subfigure}
+    ~ 
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[height=1.5in]{figures/IC2.png}
+        \caption{Cancer cell: Mutated DNA.}
+    \end{subfigure}
+\end{figure}
+\end{frame}
+\begin{frame}{Immunotherapy enables the immune system}
+Immunotherapy 'releases the brakes' on the immune system in order for it to attack tumours \citep{pardoll_blockade_2012}.
+\begin{figure}[t!]
+    \centering
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[height=1.5in]{figures/IC1.png}
+        \caption{Low-damage cell: \textbf{unrecognisable} to immune system.}
+    \end{subfigure}
+    ~ 
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[height=1.5in]{figures/IC2.png}
+        \caption{High-damage cell: \textbf{recognisable} to the immune system.}
+    \end{subfigure}
+\end{figure}
+However, the immune system can only attack tumours that it recognises!
+\end{frame}
+
+\subsection{Exome-wide biomarkers}
+
+
+\begin{frame}{Tumour mutation burden stratifies patients for immunotherapy response}
+As a simple proxy for likelihood of immune response, we can use \textbf{tumour mutation burden}: the total count of non-synonymous mutations throughout the tumour exome \citep{zhu_association_2019, cao_high_2019}. \\
+~\\
+Advantages:
+\begin{enumerate}[I]
+    \item Calculated from DNA sequencing only (compatible with liquid biopsy \citep{gandara_blood-based_2018}).
+    \item Relevant across cancer types.
+\end{enumerate}
+Disadvantages:
+\begin{enumerate}[I]
+    \item Requires Whole-Exome Sequencing (WES) to measure directly. 
+    \item Fails to incorporate other features of the immune environment.
+\end{enumerate}
+
+
+
+\end{frame}
+
+\subsection{Targeted gene panels}
+
+\begin{frame}{Targeted panels make genomic biomarkers viable}
+Rather than the entire exome/genome, targeted gene panels sequence a \textbf{subset} of genes.
+
+\begin{figure}[t!]
+    \centering
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[height=1.5in]{figures/IC5.png}
+        \caption{Whole-exome sequencing: \textbf{all genes} sequenced.}
+    \end{subfigure}
+    ~ 
+    \begin{subfigure}[t]{0.45\textwidth}
+        \centering
+        \includegraphics[height=1.5in]{figures/IC6.png}
+        \caption{Targeted panel sequencing: \textbf{subset} of genes sequenced.}
+    \end{subfigure}
+\end{figure}
+
+\end{frame}
+\begin{frame}{Problem Statement}
+Aims: 
+
+\begin{enumerate}[1]
+\item Select a discrete set of genes to form a panel (of pre-specified cost). 
+\item Estimate TMB from panel sequencing data.
+\end{enumerate} 
+~\\
+\end{frame}
+
+\begin{frame}{Mutations and biomarkers: some notation}
+We'll use $i,g,$ and $s$ to refer to:
+\begin{enumerate}
+    \item A sample $i$ (ranging from $i=1$ to $i=N$),
+    \item A gene $g$ (belonging to some index set $G$),
+    \item A variant type $s$ (for example synonymous/non-synonymous).
+\end{enumerate}
+Finally, we write:
+\begin{enumerate}[4]  
+    \item $M_{igs}$, to refer to a mutation count of a particular sample, gene, and mutation type.
+\end{enumerate} 
+~\\
+We then can define the TMB of the $i$th sample via:
+\[
+T_i = \sum_{\substack{g \in G \\ s: \ \text{non-}\\ \text{synonymous}}} M_{igs}.
+\]
+
+\end{frame}
+
+\section{Generative/predictive modelling framework}
+\subsection{Generative model}
+
+\begin{frame}{Our generative model}
+A generative model of mutation attempts to capture the \textbf{underlying distribution} of variants across the entire exome/genome. \\
+~\\
+Our model incorporates \color{blue}\textbf{sample-specific} \color{black} effects, \color{red} \textbf{gene-specific} \color{black} effects, \color{green} \textbf{variant-specific} \color{black} effects, \color{purple} \textbf{variant-gene interactions} \color{black} and \color{cyan}\textbf{gene length}\color{black}:
+\begin{equation}
+    M_{igs} \sim \text{Poisson}(\phi_{igs})
+\end{equation}
+where 
+\begin{equation}
+\log(\phi_{igs}) = \color{blue}\mu_i \color{black}+ \color{red}\lambda_g \color{black} + \color{green} \nu_s \color{black} +  \color{purple} \eta_{gs} \color{black} + \color{cyan}\ell_g \color{black}
+\end{equation} 
+\end{frame}
+
+\begin{frame}{NSCLC: Poisson-based generative model fit}
+We fit our generative model with a WES non-small cell lung cancer dataset from Campbell et al. (2016) \citep{campbell_distinct_2016}.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=4in]{figures/fig4.png}
+\caption{Generative model parameters. \citep{bradley_data-driven_2021}\label{fig:3}}
+\end{figure}
+\end{frame}
+
+
+
+\subsection{Predictive model}
+\begin{frame}{Proposed estimator}
+Aims (reminder): 
+
+\begin{enumerate}[1]
+\item Select a discrete set of genes to form a panel (of pre-specified cost). 
+\item Estimate TMB from panel sequencing data.
+\end{enumerate} 
+~\\
+Our estimator:
+
+\begin{equation}
+    \hat{T}_i(w) = \sum_{g,s} w_{gs} M_{igs}
+\end{equation}
+
+How we fit our estimator:
+\begin{equation}
+    \hat{w} := \argmin_w \bigg\{ \mathbb{E}\big[(\hat{T}_i(w) - T_i)^2\big] + \kappa |w| \bigg\} ,
+\end{equation}
+where $\kappa$ is a penalty specifying panel cost, and the expectation $\mathbb{E}$ is over the distribution learned by our generative model.
+\end{frame}
+
+
+
+\section{Application to non-small cell lung cancer}
+
+\begin{frame}{NSCLC: Comparison panels and estimation methods}
+We compare our methodology with four commercial gene panels, and with three other means of predicting TMB. These panels are:
+\begin{enumerate}
+\item The \color{red} TST-170 \color{black} gene panel.
+\item The \color{green} Foundation~One \color{black} gene panel.
+\item The \color{blue} MSK-IMPACT \color{black} gene panel.
+\item The \color{purple} TSO-500 \color{black} gene panel.
+\end{enumerate}
+and these methods are:
+\begin{enumerate}
+    \item ecTMB  ($\times$) \citep{yao_ectmb_2020}.
+    \item Simple counting ($\circ$).
+    \item Linear regression ($+$).
+\end{enumerate}
+
+\end{frame}
+
+
+
+
+\begin{frame}{NSCLC: Estimation performance}
+
+
+\end{frame}
+
+\begin{frame}{Bonus material}
+Our method is flexible enough that we can:
+\begin{enumerate}
+    \item Predict other exome-wide biomarkers, such as Tumour Indel Burden (TIB).
+    \item Augment existing gene panels to improve their predictive performance.
+\end{enumerate}
+For more information check out our (draft) paper \cite{bradley_data-driven_2021}!
+\end{frame}
+
+\appendix
+\begin{frame}[allowframebreaks]
+        \frametitle{References}
+        \bibliography{zotero-refs.bib}
+\end{frame}
+
+\end{document}
